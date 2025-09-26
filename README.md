@@ -8,7 +8,7 @@ Este sistema em linguagem C implementa um CRUD (Criação, Leitura, Atualizaçã
 **ADICIONAR FILME:** Insere um novo registro, com a lista sendo redimensionada dinamicamente via realloc.\
 **LISTAR FILMES:** Exibe todos os filmes cadastrados.\
 **EDITAR FILME:** Permite a atualização dos dados de um filme, identificado pelo seu ID.\
-**REMOVER FILME:** Deleta o filme, ajustando o array e realocando a memória para liberar espaço.\
+**REMOVER FILME:** Deleta o filme, ajustando o array e realocando a memória para liberar espaço. \
 
 ## PRINCIPAIS TECNOLOGIAS E FUNÇÕES USADAS:
 **ALOCAÇÃO DINÂMICA DE MEMÓRIA E PONTEIROS:** realloc: Função chave usada para expandir ou encolher o array de filmes em tempo de execução (adicionar() e remover().
