@@ -4,13 +4,13 @@ Este projeto foi desenvolvido como trabalho final para a disciplina de Fundament
 Este sistema em linguagem C implementa um CRUD (Criação, Leitura, Atualização e Deleção) para gerenciar um catálogo de filmes.
 
 
-## FUNCIONALIDADE:\
+## FUNCIONALIDADE:
 **ADICIONAR FILME:** Insere um novo registro, com a lista sendo redimensionada dinamicamente via realloc.\
 **LISTAR FILMES:** Exibe todos os filmes cadastrados.\
 **EDITAR FILME:** Permite a atualização dos dados de um filme, identificado pelo seu ID.\
 **REMOVER FILME:** Deleta o filme, ajustando o array e realocando a memória para liberar espaço.\
 
-## PRINCIPAIS TECNOLOGIAS E FUNÇÕES USADAS:\
+## PRINCIPAIS TECNOLOGIAS E FUNÇÕES USADAS:
 **ALOCAÇÃO DINÂMICA DE MEMÓRIA E PONTEIROS:** realloc: Função chave usada para expandir ou encolher o array de filmes em tempo de execução (adicionar() e remover().
 ***PONTEIROS (*filme):*** Utilizados para gerenciar o endereço base da lista de filmes, permitindo que todas as funções o acessem e modifiquem.\
 
